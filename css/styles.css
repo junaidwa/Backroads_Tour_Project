@@ -169,7 +169,7 @@ p {
 @media screen and(min-width:992px){
   .section-center{
     width: 95vw;
-    
+
 
   }
   
@@ -229,7 +229,17 @@ About
 /* section add to globals */
 /* title add to globals */
 /* section center add to globals */
-
+.about-img,.about-info{ 
+   margin-bottom: 2rem; 
+}
+@media screen and ( min-width : 992px) {
+  .about-center {
+    display: flex;
+  }
+  .about-img,.about-info{
+    flex:0 0 calc(50% - 2rem);
+  }
+}
 /*
 =============== 
 Services
